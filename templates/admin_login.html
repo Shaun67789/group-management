@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: rgba(30, 41, 59, 0.7); padding: 40px; border-radius: 20px; text-align: center; border: 1px solid rgba(255, 255, 255, 0.1); width: 100%; max-width: 400px; box-sizing: border-box; }
+        input { width: 100%; padding: 15px; margin-bottom: 20px; background: rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.2); border-radius: 10px; color: white; box-sizing: border-box;}
+        button { width: 100%; padding: 15px; background: #ef4444; border: none; border-radius: 10px; color: white; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>System Override</h2>
+        <form action="/admin/login" method="POST">
+            <input type="password" name="password" placeholder="Passcode" required>
+            <button type="submit">Authenticate</button>
+        </form>
+    </div>
+</body>
+</html>

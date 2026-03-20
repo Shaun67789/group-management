@@ -1,0 +1,51 @@
+{
+    "config": {
+        "bot_token": "8111600420:AAHT5BQEjE-065HxDFUrhvrsv2bb72nzr3s",
+        "is_running": true,
+        "owner_username": "Delete_ee"
+    },
+    "groups": {
+        "-1002683152055": {
+            "rules": "No rules set yet. Use /setrules to set them.",
+            "welcome_message": "Welcome to the group!",
+            "bad_words": [],
+            "filters": {
+                "delete": {
+                    "type": "sticker",
+                    "file_id": "CAACAgQAAyEFAASf7aa3AAII3Gm9HyJndbmukDaKtFSU9A53rSqkAAL6FQACyqVIUWY3UOwzy_RKOgQ"
+                }
+            }
+        },
+        "-1003540226732": {
+            "rules": "No rules set yet. Use /setrules to set them.",
+            "welcome_message": "{name} welcome to the group, and remember shawon is your dad",
+            "bad_words": [],
+            "filters": {
+                "shawon": {
+                    "type": "sticker",
+                    "file_id": "CAACAgUAAyEFAATTA5KsAAITY2m9ELQ369HCmBH26RXVnbcKas9UAAIoHgACcANgVdUMcGnWO6HGOgQ"
+                },
+                "shawon gay": {
+                    "type": "text",
+                    "text": "\ud83d\uddff"
+                },
+                "rahat": {
+                    "type": "sticker",
+                    "file_id": "CAACAgUAAyEFAATTA5KsAAIUSmm9J5tUMQTxtrPbdhtEdikf0xYNAAKgFwACDeARVJfsStIyFLUpOgQ"
+                }
+            }
+        }
+    },
+    "users": {
+        "6205149659": {
+            "warnings": 0,
+            "name": "\u1d05\u1d07\u029f\u1d07\u1d1b\u1d07",
+            "role": "member"
+        },
+        "7333244376": {
+            "warnings": 0,
+            "name": "\u23e4\u035f\u035e\u035f\u035e\ud835\udc12\ud835\udc21\ud835\udc1a\ud835\udc30\ud835\udc28\ud835\udc27\u22c6\u0f17",
+            "role": "member"
+        }
+    }
+}

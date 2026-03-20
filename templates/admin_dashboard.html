@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Admin Panel</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: white; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px;}
+        .container { width: 100%; max-width: 600px; background: rgba(30, 41, 59, 0.7); padding: 30px; border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.1); }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; color: #94a3b8; font-weight: 600; }
+        input, select { width: 100%; padding: 12px; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.2); border-radius: 10px; color: white; box-sizing: border-box;}
+        button { width: 100%; padding: 15px; border: none; border-radius: 10px; color: white; font-weight: bold; cursor: pointer; background: #ef4444; margin-top: 10px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🛠️ Remote Operations Center</h2>
+        <p style="color: #94a3b8;">Execute actions silently via API. No in-chat commands required.</p>
+        
+        <form action="/admin/remote_action" method="POST">
+            <div class="form-group">
+                <label>Target Group ID (e.g., -100123456789)</label>
+                <input type="text" name="group_id" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Target User ID</label>
+                <input type="text" name="user_id" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Action to Execute</label>
+                <select name="action">
+                    <option value="ban">Permanently Ban User</option>
+                    <option value="kick">Kick User (Allow Return)</option>
+                    <option value="promote">Elevate to Administrator</option>
+                </select>
+            </div>
+            
+            <button type="submit">Execute Secure Override</button>
+        </form>
+    </div>
+</body>
+</html>

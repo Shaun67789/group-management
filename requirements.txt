@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pyTelegramBotAPI
+jinja2
+pydantic
+python-multipart
