@@ -6,7 +6,7 @@ DATA_FILE = "data.json"
 
 DEFAULT_DATA = {
     "config": {
-        "bot_token": "8111600420:AAHT5BQEjE-065HxDFUrhvrsv2bb72nzr3s",
+        "bot_token": "8111600420:AAEryU8EFKGZ3xId0FxZjWwq_MykMeutswk",
         "is_running": False,
         "owner_username": "Delete_ee"
     },
